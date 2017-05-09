@@ -2,7 +2,7 @@
 C# client for tSQLT (SQL Server database unit testing framework)
 
 App.config in consuming project example
-
+```xml
 <?xml version="1.0"?>
 <configuration>
    <configSections>
@@ -17,3 +17,4 @@ App.config in consuming project example
 </scripts>
 </tSQLt>
 </configuration>
+```
