@@ -45,3 +45,43 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Build results
+[Bb]in
+[Bb]in/
+[Oo]bj
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebug*/
+[Rr]elease/
+*.bak
+.idea/
+x64/
+*_i.c
+*_p.c
+*.idea
+*.ilk
+*.lib
+*.log
+*.meta
+*.obj
+*.pch
+*.exe
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+.builds
+
+# NuGet Packages Directory
+packages
+
+# Dist
+dist/
