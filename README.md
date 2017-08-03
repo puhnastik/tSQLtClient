@@ -38,7 +38,7 @@ App.config in consuming project example
  ## tSQLt Clinet interface : Writing Nunit tests without a template file
  Tests can be created manually, without leveraging a template. See the interface:
  
- Call BootstrapCleanDataBase to create and bootstrap the database with the tSQLt fremawork and scripts for the database. Note: the bootstrap will delete the database and create a new one, so be sure to use the Test database.
+ Call BootstrapCleanDataBase to create and bootstrap the database with the tSQLt framework and scripts for the database. Note: the bootstrap will delete the database and create a new one, so be sure to use the Test database.
  Call DropDataBase if the cleanup is required at the end.
  Each test wrapper has to call ExecuteTest("test_class.test_name") that will trigger a corresponding tSQLt test on the database, the result value has 2 properties: Result and Msg that can be used for further assersion.
  
